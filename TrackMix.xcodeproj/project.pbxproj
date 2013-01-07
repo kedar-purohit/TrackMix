@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4371D184169682340021297E /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 4371D183169682340021297E /* Track.m */; };
 		43CC1283169273A200CA5CF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CC1282169273A200CA5CF1 /* Cocoa.framework */; };
 		43CC128D169273A200CA5CF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43CC128B169273A200CA5CF1 /* InfoPlist.strings */; };
 		43CC128F169273A200CA5CF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC128E169273A200CA5CF1 /* main.m */; };
@@ -16,17 +17,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4371D182169682340021297E /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		4371D183169682340021297E /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 		43CC127E169273A200CA5CF1 /* TrackMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CC1282169273A200CA5CF1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		43CC1285169273A200CA5CF1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		43CC1286169273A200CA5CF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		43CC1287169273A200CA5CF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		43CC128A169273A200CA5CF1 /* TrackMix-Info.plist */ = {isa = PBXFileReference; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
+		43CC128A169273A200CA5CF1 /* TrackMix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
 		43CC128C169273A200CA5CF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43CC128E169273A200CA5CF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		43CC1290169273A200CA5CF1 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
+		43CC1290169273A200CA5CF1 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
 		43CC1292169273A200CA5CF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		43CC1294169273A200CA5CF1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		43CC1294169273A200CA5CF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43CC1295169273A200CA5CF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		43CC1298169273A200CA5CF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +89,8 @@
 				43CC1295169273A200CA5CF1 /* AppDelegate.m */,
 				43CC1297169273A200CA5CF1 /* MainMenu.xib */,
 				43CC1289169273A200CA5CF1 /* Supporting Files */,
+				4371D182169682340021297E /* Track.h */,
+				4371D183169682340021297E /* Track.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -129,7 +134,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = Overstock.com;
+				ORGANIZATIONNAME = KedarPurohit;
 			};
 			buildConfigurationList = 43CC1278169273A200CA5CF1 /* Build configuration list for PBXProject "TrackMix" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -168,6 +173,7 @@
 			files = (
 				43CC128F169273A200CA5CF1 /* main.m in Sources */,
 				43CC1296169273A200CA5CF1 /* AppDelegate.m in Sources */,
+				4371D184169682340021297E /* Track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +295,7 @@
 				43CC129E169273A200CA5CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
